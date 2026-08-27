@@ -1,5 +1,9 @@
 # Listex
 
+[![Hex.pm](https://img.shields.io/hexpm/v/listex.svg)](https://hex.pm/packages/listex)
+[![Docs](https://img.shields.io/badge/hexdocs-listex-informational)](https://hexdocs.pm/listex)
+[![License](https://img.shields.io/hexpm/l/listex.svg)](LICENSE)
+
 One process per list, for simple concurrent editing.
 
 A list is spawned from a plain Elixir list and lives in its own process.
@@ -26,13 +30,12 @@ def deps do
 end
 ```
 
-Or, while it is not on Hex, from a checkout or a git remote:
+Or straight from git:
 
 ```elixir
 def deps do
   [
-    {:listex, path: "../listex"},
-    # {:listex, git: "https://github.com/you/listex.git"}
+    {:listex, github: "dragonee/listex"}
   ]
 end
 ```

@@ -15,7 +15,8 @@ defmodule Listex.MixProject do
       description:
         "One process per list: concurrent list editing with stable ids, " <>
           "arrival-order conflict resolution and idle shutdown.",
-      docs: [main: "Listex", extras: ["README.md"]]
+      package: [licenses: ["MIT"], files: ~w(lib mix.exs README.md LICENSE .formatter.exs)],
+      docs: [main: "Listex", extras: ["README.md", "LICENSE"]]
     ]
   end
 

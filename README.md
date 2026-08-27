@@ -206,4 +206,4 @@ dozens of editors hit one list at once.
 
 ## License
 
-MIT.
+MIT — see [LICENSE](LICENSE).
